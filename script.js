@@ -1,4 +1,4 @@
-let playerState = "run";
+let playerState = "idle_left";
 const dropdown = document.getElementById("animations");
 dropdown.addEventListener("change",function(e){
     playerState=e.target.value;
@@ -19,11 +19,23 @@ const staggerFrames = 8;
 const spriteAnimations = [];
 const animationStates = [
 {
-    name: "idle",
+    name: "idle_left",
     frames: 4,
 },
 {
-    name: "run",
+    name: "run_left",
+    frames: 4,
+},
+{
+    name: "idle_rigth",
+    frames: 4,
+},
+{
+    name: "run_rigth",
+    frames: 4,
+},
+{
+    name: "sit",
     frames: 4,
 }
 ];

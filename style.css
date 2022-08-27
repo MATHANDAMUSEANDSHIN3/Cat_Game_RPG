@@ -1,3 +1,8 @@
+body{
+  /*background-color: black;*/
+  background-image: url("firstcomposition.gif");
+}
+
 #canvas1 {
   border: 1px solid transparent;
   position: absolute;
@@ -17,5 +22,10 @@
 }
 
 .controls,select,option{
-  font-size: 25px;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: #00F839;
+  background: black;
+
 }
